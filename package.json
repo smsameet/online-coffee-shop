@@ -1,7 +1,8 @@
 {
   "name": "online-coffee-shop",
   "version": "0.1.0",
-  "private": true,
+  "description": "create a online coffee shop project",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
