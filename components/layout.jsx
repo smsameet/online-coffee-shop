@@ -1,7 +1,7 @@
 const Layout = (props) => {
   return (
     <>
-      <main>
+      <main className='flex'>
         {props.children}
       </main>
     </>
