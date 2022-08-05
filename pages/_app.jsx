@@ -5,8 +5,8 @@ import '../styles/globals.css'
 const MyApp = ({Component, pageProps}) => {
   return (
     <Layout>
-      <SideBar></SideBar>
       <Component {...pageProps}></Component>
+      <SideBar></SideBar>
     </Layout>
   )
 }
