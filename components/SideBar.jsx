@@ -7,7 +7,7 @@ const SideBar = () => {
     setShowMenu(!showMenu)
   }
   return (
-    <div className='bg-[url("../public/sidebar.jpg")] w-2/12 lg:block hidden'>
+    <div className='bg-[url("../public/sidebar.jpg")] w-2/12 lg:block hidden h-screen fixed'>
       <Link href='/'><a><img src='/logo.png' className='m-auto p-5 border-stone-600 border-b-2' /></a></Link>
       <nav className='text-center text-white'>
         <Link href='/'><a className='block p-4 text-orange-400'>HOME</a></Link>
