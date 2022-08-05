@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const index = () => {
   return (
-    <div className='flex flex-col w-full'>
+    <div className='flex flex-col w-10/12 ml-auto'>
       <div className='bg-[url("../public/slide.jpg")] flex flex-col relative h-96 md:h-screen bg-cover md:bg-center bg-right'>
         <div className='text-orange-400 font-bold flex flex-col mt-auto w-full items-center justify-center'>
           <span className='text-2xl font-medium'>Cafe & Restaurant</span>
