@@ -157,7 +157,7 @@ const index = () => {
               </div>
             </div>
             <div className='flex items-center'>
-              <button className='mt-10 p-5 rounded-sm text-white text-sm font-bold bg-gray-800 hover:bg-gray-900'><Link href='/menu'>VIEW OUR COMPLETE MENU</Link></button>
+              <button className='mt-10 p-5 rounded-sm text-white text-sm font-bold bg-gray-800 hover:bg-gray-900'><Link href='/menu'><a>VIEW OUR COMPLETE MENU</a></Link></button>
             </div>
           </div>
           <div className='bg-gray-200 h-auto flex justify-center items-center text-center pt-32 pb-32'>
