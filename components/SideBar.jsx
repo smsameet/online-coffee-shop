@@ -20,7 +20,7 @@ const SideBar = () => {
           </nav>
         )}
         <Link href='/menu'><a className='block p-4 hover:text-orange-400' >MENU</a></Link>
-        <Link href='/'><a className='block p-4 hover:text-orange-400' >GALLERY</a></Link>
+        <Link href='/gallery'><a className='block p-4 hover:text-orange-400' >GALLERY</a></Link>
         <Link href='/'><a className='block p-4 hover:text-orange-400' >CONTACT US</a></Link>
         <Link href='/'><a className='block p-4 hover:text-orange-400' >RESERVATION</a></Link>
       </nav>
