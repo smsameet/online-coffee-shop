@@ -4,8 +4,8 @@ const menu = () => {
   return (
     <div className='flex flex-col w-full'>
       <div className='flex flex-col justify-center items-center pt-32 w-10/12 ml-auto bg-right-bottom bg-[url("../public/bnr1.jpg")]'>
-        <h2 className='text-white text-7xl p-3'>OUR MENU</h2>
-        <span className='text-yellow-100 text-xl pb-5'>SELECT MENU BELOW:</span>
+        <h2 className='text-white font-bold text-6xl p-3'>OUR MENU</h2>
+        <span className='text-yellow-100 font-bold text-xl pb-5'>SELECT MENU BELOW:</span>
         <h5 className='text-white text-xl pb-20'><Link href='/'><a>HOME</a></Link> &gt; MENU</h5>
         <button type='button' className='flex text-white bg-orange-400 p-2 items-center font-bold text-xl'>
           <img src='/icon5.png' width='30' height='30' className='mr-2'/>
